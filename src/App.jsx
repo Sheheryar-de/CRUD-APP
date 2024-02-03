@@ -7,7 +7,7 @@ import {
   deleteDoc,
   doc,
   addDoc,
-  updateDoc
+  updateDoc,
 } from "firebase/firestore";
 
 function App() {
@@ -95,7 +95,7 @@ function App() {
 
   return (
     <>
-      <div>
+      <div className="container">
         <h1>CRUD App using React and Firebase</h1>
         <div>
           {!isEditing && (
